@@ -1,5 +1,5 @@
 from ollama import Llama3
-import prophet
+from prophet import prophet
 import customtkinter as ctk
 import matplotlib.pyplot as plt
 import pandas as pd
