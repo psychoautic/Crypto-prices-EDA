@@ -99,7 +99,7 @@ def explainForecast(ticker, feature, forecast):
     pctChange = (change / firstRow['yhat']) * 100 if firstRow['yhat'] != 0 else 0
     return (
         f"Prediction for {ticker} feature '{feature}':\n"
-        f"- Start: {firstRow['ds'].date()} value ≈ {firstRow['yhat']:.2f}\n"
+        f"- Start: {firstRow['ds'].date()} value ≈ {firstRow['yhat']:.2f}4\n"
         f"- End: {lastRow['ds'].date()} value ≈ {lastRow['yhat']:.2f}\n"
         f"- Change: {change:.2f} ({pctChange:.2f}%) over the period.\n"
     )
