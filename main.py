@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from prophet import Prophet
 import matplotlib.pyplot as plt
+import seaborn as sns
 import customtkinter as ctk
 import ollama
 import json
